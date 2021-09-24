@@ -1,7 +1,6 @@
 ## Ödev Hazırlanıyor.
 İçerik güncellenecek.
 
-
 # Ödev 1
 
 ## Gereksinimler
