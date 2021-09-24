@@ -1,0 +1,19 @@
+{
+  "name": "odev-1",
+  "version": "1.0.0",
+  "description": "frontend-bootcamp-odev1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patika-hepsiburada-react-bootcamp/odev-1-umranbertan.git"
+  },
+  "author": "Umran Bertan <umranbertan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patika-hepsiburada-react-bootcamp/odev-1-umranbertan/issues"
+  },
+  "homepage": "https://github.com/patika-hepsiburada-react-bootcamp/odev-1-umranbertan#readme"
+}
