@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/patika-hepsiburada-react-bootcamp/odev-1-umranbertan/issues"
   },
-  "homepage": "https://github.com/patika-hepsiburada-react-bootcamp/odev-1-umranbertan#readme"
+  "homepage": "https://github.com/patika-hepsiburada-react-bootcamp/odev-1-umranbertan#readme",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
 }
