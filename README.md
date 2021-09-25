@@ -1,8 +1,8 @@
+# ÖDEV ÇIKTISI AŞAĞIDA YER ALMAKTADIR.
 
+## Ödev 1
 
-# Ödev 1
-
-## Gereksinimler
+### Gereksinimler
 - [ ] Kök dizinde **"src"** isminde bir dizin oluşturun ve içerisine **"app.js"** adında bir dosya oluşturun.
   
 - [ ] **"src"** dizini altına **"lib"** adında başka bir dizin açın ve bu dizinde **"service.js"** adında bir dosya oluşturun.
