@@ -1,10 +1,15 @@
 import axios from "axios";
 
-function getData(a,b){
-    return a+b;
+async function  getData () {
+    const { data:users}=await axios("https://jsonplaceholder.typicode.com/users/");
+
+    const { data:posts}=await axios("https://jsonplaceholder.typicode.com/posts/");
+
+    console.log("users:", users);
+    console.log("posts:", posts);
 }
 
 
-
+getData();
 
 export default getData;
