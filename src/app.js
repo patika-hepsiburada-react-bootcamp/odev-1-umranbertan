@@ -1,2 +1,2 @@
 import getData from  './lib/service.js'
-console.log(getData(1));
+console.log( getData(1));
