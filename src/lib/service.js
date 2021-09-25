@@ -1,10 +1,10 @@
 import axios from "axios";
 
 async function  getData (userId) {
-    //Sonundaki user idleri değişeceği için const değil de let kullanmak gerekiyor.
+    // "axios" kütüphanesi kullanıldı. İsteği yaparken aşağıdaki endpointin sonundaki rakamı parametrede gelen user id'ile değişmekte.
     const { data:users}=await axios(`https://jsonplaceholder.typicode.com/users/${userId}`); 
     
-  //Sonundaki user idleri değişeceği için const değil de let kullanmak gerekiyor.
+     // "axios" kütüphanesi kullanıldı. İsteği yaparken aşağıdaki endpointin sonundaki rakamı parametrede gelen user id'ile değişmekte.
     const { data:posts}=await axios(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`);
     
     
