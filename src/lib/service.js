@@ -2,15 +2,15 @@ import axios from "axios";
 
 async function  getData (userId) {
     //Sonundaki user idleri değişeceği için const değil de let kullanmak gerekiyor.
-    let { data:users}=await axios(`https://jsonplaceholder.typicode.com/users/${userId}`); 
+    const { data:users}=await axios(`https://jsonplaceholder.typicode.com/users/${userId}`); 
     
   //Sonundaki user idleri değişeceği için const değil de let kullanmak gerekiyor.
-    let { data:posts}=await axios(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`);
+    const { data:posts}=await axios(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`);
     
     
-    
-    console.log("users:", users);
-    console.log("posts:", posts);
+    users.posts=posts;
+    return {...users, posts}
+   
 }
 
 
